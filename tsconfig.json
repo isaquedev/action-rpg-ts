@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "target": "es6",
+      "module": "es6",
+      "outDir": "public",
+      "rootDir": "src",
+      "noImplicitAny": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+  },
+  "include": ["src/"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

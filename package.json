@@ -1,0 +1,26 @@
+{
+  "name": "action_rpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc --project tsconfig.json & nodemon server.js",
+    "server": "node server.js",
+    "watch": "tsc --project tsconfig.json -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.15",
+    "reload": "^3.2.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "watch": "^1.0.2"
+  }
+}
